@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "RCTBridgeModule.h"
+// #import "RCTBridgeModule.h"
+#import <React/RCTBridgeModule.h>
 
 @interface RCTUmengPush : NSObject <RCTBridgeModule>
 + (void)registerWithAppkey:(NSString *)appkey launchOptions:(NSDictionary *)launchOptions;
